@@ -9,7 +9,7 @@ It is built using Node.js, JavaScript, and the Jest testing framework.
 1. **Clone the Repository:**
    First, clone the repository using the following link:
    ```bash
-   git clone https://github.com/coletking/dom-clem.git
+   git clone https://github.com/coletking/Don-clem-Technology.git
    cd dom-clem
 Install Dependencies:
 After cloning the repository, install all the necessary dependencies by running:
