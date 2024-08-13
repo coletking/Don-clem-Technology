@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node dist/.solution.s",
-    "start:task2": "npm run build && node dist/secondSolution.js",
-    "dev:task1": "nodemon --exec ts-node src/solution.ts",
-    "dev:task2": "nodemon --exec ts-node src/secondSolution.ts",
+    "start": "npm run build && node dist/.worker.s",
+    "start:task2": "npm run build && node dist/validateSerialNumbers.js",
+    "dev:task1": "nodemon --exec ts-node src/worker.ts",
+    "dev:task2": "nodemon --exec ts-node src/validateSerialNumbers.ts",
     "build": "tsc",
     "test": "jest"
   },
