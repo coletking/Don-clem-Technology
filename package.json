@@ -1,0 +1,33 @@
+{
+  "name": "don-clem-technology",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/.solution.s",
+    "start:task2": "npm run build && node dist/secondSolution.js",
+    "dev:task1": "nodemon --exec ts-node src/solution.ts",
+    "dev:task2": "nodemon --exec ts-node src/secondSolution.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.2.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5"
+  }
+}
